@@ -4,7 +4,7 @@ const url = origin + basePath ?? '';
 
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-	siteUrl: url,
-	generateRobotsTxt: true,
-	generateIndexSitemap: false,
+  siteUrl: url,
+  generateRobotsTxt: true,
+  generateIndexSitemap: false,
 };
